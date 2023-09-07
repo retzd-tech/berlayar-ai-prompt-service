@@ -26,6 +26,10 @@ for (const d of data) {
   docs = [...docs, ...docOutput];
 }
 
+console.log(docs.length);
+docs = docs.splice(docs.length - 4, 4);
+console.log(docs);
+
 console.log("Initializing Store...");
 
 const store = await HNSWLib.fromTexts(

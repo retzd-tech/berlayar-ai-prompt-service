@@ -1,6 +1,4 @@
-# LangChain.js LLM Template
-
-This is a LangChain LLM template that allows you to train your own custom AI model on any data you want.
+# LangChain.js LLM 
 
 ## Setup
 1. Provide all the information you want your LLM to be trained on in the `training` directory in markdown files.  Folder depth doesn't matter.
