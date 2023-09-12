@@ -6,7 +6,7 @@ import { OpenAIEmbeddings } from 'langchain/embeddings';
 
 const data = [];
 const files = await new Promise((resolve, reject) => 
-  glob("training/**/*.md", (err, files) => err ? reject(err) : resolve(files))
+  glob("training/retzyumar*.md", (err, files) => err ? reject(err) : resolve(files))
 );
 
 for (const file of files) {
